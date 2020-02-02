@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Playfair+Display&display=swap');
+
+    
+    *{
+        text-decoration: none;
+        padding: 0px;
+        margin: 0px;
+        font-size: 24px;
+        box-sizing: border-box;   
+        overflow-x: hidden;
+    }
+
+    .titleDev{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 180px;
+        width: inherit;
+        background-image: url("banner.png");
+        background-position: center;
+    }
+
+    .head{
+        text-align: center; 
+        font-family: 'Playfair Display';
+        color: #3B3736;
+        font-weight: 600;
+        font-size: 2em;
+        text-align: center; 
+        z-index: 1;
+    }
+
+    #headShade{
+        position: relative;
+        left: 2.8em;
+        top: 1.75em;
+        width: 10.37em;
+        height: 1.73em;
+        background-color: #F8D16C;
+        z-index: 0;
+    }
+
+
+    .content_holder{
+        padding-left: 0.9em;
+        padding-right: 0.9em;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .content{
+        max-width: 1000px;
+    }
+    .first{
+        padding-top: 1.5em;
+        width: inherit;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .first_head{
+        font-family: 'Playfair Display';
+        color: #000000;
+        font-weight: 700;
+        font-size: 1.25em; 
+        z-index: 1;
+    }
+
+    #firstShade{
+        position: relative;
+        left: 3em;
+        top: 1em;
+        width: 9.197em;
+        height: 1.083em;
+        background-color: #F8D16C;
+        z-index: -1;
+    }
+
+    #join{
+        color: #878787;
+        font-size: 0.75em;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    #join b{
+        font-size: 1em;
+    }
+
+    .recContent{
+        max-width: 1000px;
+        margin-top: 1.4em;
+        margin-bottom: 2em;
+        background-color: #F7F7F7;
+        font-family: 'Nunito Sans';
+        padding: 1.25em 2em;
+    }
+
+    .contentTitle{
+        font-weight: 900;
+    }
+
+    .recDescription{
+        margin-top: 1em;
+        font-size: 0.67em;
+        color: #666666;
+    }
+
+    .recDescription strong{
+        font-size: 1em;
+    }
+
+    .winter{
+        background-color: #F7F7F7;
+        padding: 2em;
+        margin-bottom: 2em;
+        font-family: 'Nunito Sans';
+    }
+
+    .task_container{
+        display: grid;
+        grid-template-columns: 48fr 4fr 48fr;
+    }
+
+    .task1{
+        grid-column-start: 1;
+        margin-right: 1.25em;
+    }
+
+    .or{
+        grid-column-start: 2; 
+        color: #CCCCCC;
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+
+    .bar{
+        background-color: #A4A4A4;
+        height: 3.957em;
+        width: 1px;
+    }
+
+    .orT{
+        padding: 1.55em 0em;
+        font-family: 'Nunito Sans'; 
+        font-style: normal;
+        font-weight: bold;
+        font-size: 0.75em;
+        line-height: 1rem;
+        text-align: center;
+    }
+
+    .task2{
+        margin-left: 1.25em;
+        grid-column-start: 3;
+    }
+
+    .task_desc{
+        color: #666666;
+        font-family: "Nunito Sans";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.67em;
+        line-height: 0.96rem;
+        padding-top: 0.7em;
+        padding-bottom: 1.4em;
+    }
+
+    .task_desc strong{
+        color: #666666;
+        font-family: "Nunito Sans";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    .task_title{
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: bold;
+        font-size: .83em;
+        line-height: 1.4rem;
+        color: #000000;
+        margin-top: 1.25em;
+    }
+
+    .download img{
+        margin-right: 0.402em;
+
+    }
+
+    .download{
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 0.67em;
+        color: #000000;
+    }
+
+    .second{
+        max-width: 1000px;
+        padding-top: 0.83em;
+    }
+
+    .second_head{
+        font-family: 'Playfair Display';
+        color: #000000;
+        font-weight: 700;
+        font-size: 1.25em; 
+        z-index: 1;
+    }
+
+    #secondShade{
+        position: relative;
+        left: 3.5em;
+        top: 1em;
+        width: 9.45125em;
+        height: 1.083em;
+        background-color: #F8D16C;
+        z-index: -1;
+    }
+
+    .secContent{
+        width: inherit;
+        margin-top: 1.4em;
+        margin-bottom: 2em;
+        background-color: #F7F7F7;
+        font-family: 'Nunito Sans';
+        padding: 2em;
+    }
+
+    .secDescription{
+        margin-top: 1.0385rem;
+        margin-bottom: 1em;
+        font-size: 0.67em;
+        color: #666666;
+    }
+
+    .secDescription strong{
+        font-size: 1em;
+    }
+
+
+    @media only screen and (max-width: 600px){
+        .titleDev{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            height: 180px;
+            width: inherit;
+            background-image: url("banner_mobile.png");
+            background-position: center;
+        }
+
+        .contentTitle{
+            font-weight: 900;
+            text-align: center;
+        }
+
+        .first{
+            max-width: 1000px;
+            padding-top: 1.5em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .second{
+            max-width: 1000px;
+            padding-top: 0.83em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .download{
+            font-family: Nunito Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 0.67em;
+            color: #000000;
+            text-align: center;
+        }
+
+        .task_container{
+            display: grid;
+            grid-template-columns:none;
+            grid-template-rows: 40fr 4em 43fr;
+        }
+
+        .task1{
+            grid-column-start:1;
+            grid-row-start: 1;
+            margin-top: 1.25em;
+            align-self: center;
+        }
+
+        .or{
+            
+            grid-column-start: 1;
+            grid-row-start: 2; 
+            color: #CCCCCC;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center; 
+        }
+    
+        .bar{
+            background-color: #A4A4A4;
+            height: 1px;
+            width: 7.43em;
+        }
+    
+        .orT{
+            padding: 0em 1.55em;
+            font-family: 'Nunito Sans'; 
+            font-style: normal;
+            font-weight: bold;
+            font-size: 0.75em;
+            line-height: 1rem;
+            text-align: center;
+        }
+    
+        .task2{
+            
+            grid-row-start: 3;
+            grid-column-start:1 ;
+        } 
+
+        .task_desc{
+            color: #666666;
+            font-family: "Nunito Sans";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 0.67em;
+            line-height: 0.96rem;
+            padding-top: 0.7em;
+            padding-bottom: 1.4em;
+        }
+    
+        .task_desc strong{
+            color: #666666;
+            font-family: "Nunito Sans";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1em;
+        }
+    
+        .task_title{
+            font-family: 'Nunito Sans';
+            font-style: normal;
+            font-weight: bold;
+            font-size: .83em;
+            line-height: 1.4rem;
+            color: #000000;
+            margin-top: 1.25em;
+            text-align: center;
+        }
+    }
+    
+

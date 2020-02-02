@@ -1,0 +1,597 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Playfair+Display&display=swap');
+
+*{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 24px;
+    box-sizing: border-box;   
+    
+}
+
+.content_holder{
+    padding-left: 0.9em;
+    padding-right: 0.9em;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 4em 0px;
+}
+
+.content{
+    max-width: 1000px;
+
+}
+
+.blue_button{
+    width: 7.80125rem;
+    height: 1.9167rem;
+    background-color: #293B52;
+    font-family: 'Nunito Sans';
+    color: white;
+    border-radius: 2px;
+    font-size: 0.67em;
+    border: none;
+}
+
+.info{
+    width: 100%;
+    height: 25em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    min-height: 25em;
+    grid-column-gap: 4em;    
+}
+
+.info img{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin: auto 0px;
+}
+
+.desInfo{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.devInfo{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dTitle{
+    position: static;
+    font-family: 'Playfair Display';
+    color: #3B3736;
+    font-weight: 600;
+    font-size: 1.83em;
+    z-index: 1;
+}
+
+.dShade{
+    position: relative;
+    left: 2.8em;
+    top: 1.75em;
+    width: 5em;
+    height: 1.5975em;
+    background-color: #F8D16C;
+    z-index: -1;
+}
+
+#devShade{
+    left: 3.35em;
+    top: 1.75em;
+    width: 9.4883em;
+    height: 1.5975em;
+}
+
+.desc{
+    font-family: 'Nunito Sans';
+    font-weight: normal;
+    font-size: 0.67em;
+    line-height: 1.1rem;
+    color: #878787;
+    margin-top: 0.7em;
+    margin-bottom: 1.25em;
+}
+
+.timeTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: inherit;
+    
+}
+
+.timeline_holder{
+    margin-top: 4em;
+    height: 13.333em;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#timelineShade{
+    left: 2.2em;
+    top: 0em;
+    width: 6.43167em;
+    height: 1.59583em;
+}
+
+#TimelineTitle{
+    position: absolute;
+    
+}
+.timeline{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.vertical{
+    display: none;
+}
+
+.eventText{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: calc(-1.1em);
+    font-family: 'Nunito Sans';
+    font-size: 0.65rem;
+}
+
+.eventName{
+    font-family: 'Nunito Sans';
+    font-weight: bold;
+    font-size: 0.65rem;
+}
+
+.eventDate{
+    font-family: 'Nunito Sans';
+    font-size: 0.65rem;
+}
+
+.top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: auto;
+}
+
+#winter{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#winter img{
+    position: relative;
+    left: calc(-1.4375em + 3px);
+    width: 2.875em;
+    height: 4em;
+}
+
+#recTest{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#recTest img{
+    position: relative;
+    left: calc(-1em);
+    width: 2.875em;
+    height: 4em;
+}
+
+#results{
+    grid-column-start: 3;
+    grid-column-end: 4  ;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+#results img{
+    position: relative;
+    left: calc(-0.8em);
+    justify-self: center;
+    width: 2.875em;
+    height: 4em;
+}
+
+#resultsText{
+    font-weight: bold;
+    font-family: 'Nunito Sans';
+    font-size: 1em; 
+    justify-self: flex-start;
+}
+
+.timeBar{
+    width: 100%;
+    background-color: #F8D16C;
+    height: 0.167em;
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    height: auto;
+}
+
+#recTalk{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#recTalk img{
+    width: 2.875em;
+    height: 4em;
+}
+
+#interview{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#interview img{
+    width: 2.875em;
+    height: 4em;
+}
+
+#bottomEvents{
+    left: 0.8em;
+}
+
+#lastTopEvent{
+    left: 0.25em;
+}
+
+.why_img{
+    margin-top: 6.5rem;
+    display: grid;
+    width: inherit;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1.7em;
+    height: auto;
+}
+
+#WhyTitle{
+    position: relative;
+    width: 7.4734rem;
+    height: 1.5975rem;
+}
+
+.whyText.dTitle{
+    font-size: 1.83em;
+}
+
+.whyText.desc{
+    margin-top: 0.75em;
+    margin-bottom: 1.21875em;
+}
+.whyText{
+    grid-column-start: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.whyImage{
+    grid-column-start: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.whyImage img{
+    width: auto;
+    height: 12.5em;
+}
+
+.updates{
+    margin-top: 4em;
+    width: inherit;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+#updatesShade{
+    align-self: center;
+    position: relative;
+    left: 2.8em;
+    top: 0em;
+    width: 5em;
+    height: 1.5975em;
+    background-color: #F8D16C;
+    z-index: -1;
+}
+
+#updatesTitle{
+    position: relative;
+    bottom: 1.75rem;
+    align-self: center;
+    font-family: 'Playfair Display';
+    color: #3B3736;
+    font-weight: 600;
+    font-size: 1.83em;
+    z-index: 1;
+}
+
+.newsfeed{
+    max-width: 34.59em;
+    margin: 0px auto;
+}
+
+.news{
+    width: 100%;
+    height: auto;
+    padding: 0.75em 1.67em;
+}
+
+.news b{
+    font-size: 1em;
+}
+
+.news:nth-child(odd){
+    background-color: #F7F7F7;
+}
+
+.news:nth-child(even){
+    background-color: white;
+}
+
+.upDATE{
+    color: #9e9e9e;
+    font-family: 'Nunito Sans';
+    font-size: 0.67rem;
+    font-weight: bold;
+}
+
+.newsInfo{
+    color: #666666;
+    font-family: 'Nunito Sans';
+    font-size: 0.67rem;
+    margin-top: 0.335rem;
+}
+
+@media only screen and (max-width: 1210px){
+    .whyImage{
+        display: none;
+    }
+
+    .info{
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5em;
+        height: auto;
+    }
+
+    .desInfo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 2em;
+    }
+    
+    .devInfo{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .info img{
+        display: none;
+    }
+
+    .why_img{
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4em;
+        height: auto;
+    }
+
+    .whyImage img{
+        display: none;
+    }
+
+    #updatesShade, #updatesTitle{
+        align-self: flex-start;
+    }
+
+    /*----------------------------------------------------TIMELINE--------------------------------------------------------------------*/
+
+    .timeline_holder{
+        margin-top: 4em;
+        height: auto;
+        width: inherit;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    #timelineShade{
+        left: 2.2em;
+        top: 0em;
+        width: 6.43167em;
+        height: 1.59583em;
+    }
+
+    .timeTitle{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        width: inherit;
+        
+    }
+    
+    #TimelineTitle{
+        position: relative;
+        bottom: 0.9em;
+    }
+
+    .timeline{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .vertical{
+        display: initial;
+        height: 3.333em;
+        width: 0.20833em;
+        background-color: #F8D16C;
+    }
+    
+    .eventText{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Nunito Sans';
+        font-size: 0.65rem;
+        position: relative;
+        left: 0em;
+        align-self: center;
+    }
+    
+    .eventName{
+        font-family: 'Nunito Sans';
+        font-weight: bold;
+        font-size: 0.65rem;
+    }
+    
+    .eventDate{
+        font-family: 'Nunito Sans';
+        font-size: 0.65rem;
+        align-self: center;
+    }
+    
+    .top{
+        display: flex;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #winter{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    #winter img{
+        display: none;
+    }
+    
+    #recTest{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #recTest img{
+       display:none;
+    }
+    
+    #results{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    #results img{
+        display: none;
+    }
+    
+    
+    .timeBar{
+        display: none;
+    }
+    
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+    
+    #recTalk{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    #recTalk img{
+       display: none;
+    }
+    
+    #interview{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #interview img{
+        display: none;
+    }
+    
+    #bottomEvents{
+        left: inherit;
+    }
+    
+    #lastTopEvent{
+        left: inherit;
+    }
+    
+}
